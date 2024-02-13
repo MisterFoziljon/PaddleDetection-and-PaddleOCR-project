@@ -3,8 +3,8 @@ import numpy as np
 
 from python.infer import get_test_images
 from python.preprocess import preprocess, NormalizeImage, Permute, Resize_Mult32
-from ppvehicle.vehicle_plateutils import create_predictor, get_infer_gpuid, get_rotate_crop_image
-from ppvehicle.vehicleplate_postprocess import build_post_process
+from vehicle_plateutils import create_predictor, get_infer_gpuid, get_rotate_crop_image
+from vehicleplate_postprocess import build_post_process
 from paddle import inference
 
 class PlateDetector(object):
