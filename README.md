@@ -6,7 +6,7 @@
 
 --------------------------------------------------------------------------------
 
-[![Documentation Status](https://img.shields.io/badge/docs-latest-brightgreen.svg?style=flat)](https://paddlepaddle.org.cn/documentation/docs/en/guides/index_en.html)
+[![Documentation Status](https://www.google.com/url?sa=i&url=https%3A%2F%2Fsegmentfault.com%2Fa%2F1190000040811922%2Fen&psig=AOvVaw3pyUzDfadmMPato_tHjxmB&ust=1707931480457000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCIj-y-fqqIQDFQAAAAAdAAAAABAD)](https://paddlepaddle.org.cn/documentation/docs/en/guides/index_en.html)
 [![Documentation Status](https://img.shields.io/badge/中文文档-最新-brightgreen.svg)](https://paddlepaddle.org.cn/documentation/docs/zh/guides/index_cn.html)
 [![Release](https://img.shields.io/github/release/PaddlePaddle/Paddle.svg)](https://github.com/PaddlePaddle/Paddle/releases)
 [![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](LICENSE)
