@@ -1,6 +1,7 @@
 # Vehicle and Licence Plate Detection + Licence Plate Recognition with PaddlePaddle.
 
 ## 1. Vehicle Detection.
+### Inference:
 ```python
 import cv2
 from VehicleDetector import Detector
