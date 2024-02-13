@@ -27,8 +27,8 @@ image = cv2.imread("test.jpg")
 result = model(image)
 ```
 
-## 3. Number Plate Recognition.
-### Inference:
+### 3. Number Plate Recognition.
+#### Inference:
 ```python
 import cv2
 from LicencePlateRecognizer import Recognizer
@@ -39,4 +39,9 @@ model = Recognizer(model_path, characters_dict)
 
 image = cv2.imread("test.jpg")
 result = model(image)
+```
+
+### Deploy with PaddlePaddle:
+```cmd
+python deploy.py
 ```
