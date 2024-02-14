@@ -1,5 +1,5 @@
 ## Vehicle and Licence Plate Detection + Licence Plate Recognition with PaddlePaddle.
-![image](PaddleDetection-and-PaddleOCR-project/blob/main/output.png)
+![image](https://github.com/MisterFoziljon/PaddleDetection-and-PaddleOCR-project/blob/main/output.png)
 ### 1. Vehicle Detection.
 #### Inference:
 ```python
