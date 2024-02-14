@@ -45,3 +45,6 @@ result = model(image)
 ```cmd
 python deploy.py
 ```
+
+### Models
+You can download models from this [link](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.7/deploy/pipeline/docs/tutorials/PPVehicle_QUICK_STARTED_en.md)
