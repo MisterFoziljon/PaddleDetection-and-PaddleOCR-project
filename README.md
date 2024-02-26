@@ -48,3 +48,11 @@ python deploy.py
 
 ### Models
 You can download models from this [link](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.7/deploy/pipeline/docs/tutorials/PPVehicle_QUICK_STARTED_en.md)
+
+
+### Problems.
+1. PP-vehicle detection modeli yaxshi. FPS taxminan 25.
+2. PP-plate detection modeli yaxshi emas. Paddle o'zini modeli. Faqat chet el moshinalariga o'qitilgan. Deteksiyada oynadigi akslaniyam oladi. Number plate XX qismini yoki 123ABC qismini alohida kesib oladi. Asosiy adashadigan qismi. O'zimizani nomerla bilan FineTuning qilish kere. Tezligi 10-15 FPS butun frame uchun.
+3. OCR uchun PP-plate rec umuman ishlamidi. PaddleOCR ni o'zini modelini ishlatganda yaqin keganda yaxshi aniqlidi. Tezligi birinchi marta ishlaganda: 2 FPS, keyingi ishlashiga: 25-50 FPS atrofida ishladi.
+4. PaddlePaddle modeli dinamik bo'lgani uchun TensorRT da ishlatib bo'lmadi. Static bo'lishi kerak model.
+5. PaddlePaddle modelini o'zidan onnx, tensorrt da ishlatib ko'rish kerak.
